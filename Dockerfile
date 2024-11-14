@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Salin file jar ke dalam container
-COPY target/spring-boot-hello-world-0.0.1-SNAPSHOT.jar app.jar
+COPY target/spring-boot-2-hello-world-1.0.2-SNAPSHOT.jar app.jar
 
 # Tentukan perintah untuk menjalankan aplikasi
 ENTRYPOINT ["java", "-jar", "app.jar"]
